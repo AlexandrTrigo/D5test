@@ -142,7 +142,7 @@ STATICFILES_DIRS = [
 # и страница, куда он попадет после успешного входа на сайт
 # LOGIN_URL = 'sign/login/'
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = 'news/'
+LOGIN_REDIRECT_URL = '/news'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_USERNAME_REQUIRED = False
